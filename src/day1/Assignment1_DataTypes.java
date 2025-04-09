@@ -31,8 +31,8 @@ public class Assignment1_DataTypes {
          
          //To store Coordinates of a location (latitude, longitude): 37.7749, -122.4194
          
-         String Coordinates = "37.7749, -122.4194";
-         System.out.println("Coordinates of a location (latitude, longitude): "+Coordinates);
+         double[] Coordinates = {37.7749, -122.4194};
+         System.out.println("Coordinates of a location (latitude, longitude): "+Coordinates[0]+", "+Coordinates[1]);
          
          //To store Person's marital status:
          
