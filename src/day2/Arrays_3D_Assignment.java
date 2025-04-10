@@ -20,7 +20,7 @@ public class Arrays_3D_Assignment {
 		        
 		        
 		        
-		        // Semester 1
+		        // Semester 1-----
 		        college[0][0] = new String[] {"Mathematics I", "Physics", "Chemistry", "Computer Programming", "Engineering Drawing", "Basic Electrical Eng."};
 		        college[0][1] = new String[] {"Pass(78)", "Pass(85)", "Fail(21)", "Pass(74)", "Pass(88)", "Pass(79)"};
 
