@@ -70,21 +70,21 @@ if(creditScore>650 && creditScore<750) {
 	               
 //condition 3: If the credit score is below 650 & income is less than 50,000, the loan is denied.
 	          else if(creditScore<650) {
-	        	  System.out.println(customerName +"'sloan is denied");
+	        	  System.out.println(customerName +"'s loan is denied");
 	          }
 	          else if(income<50000) {
-	        	  System.out.println(customerName +"'sloan is denied");
+	        	  System.out.println(customerName +"'s loan is denied");
 	          }
 
 
 //condition 4: If the customer is unemployed, the loan is denied.
 	          else if(isEmployed==false) {
-	        	  System.out.println(customerName +"'sloan is denied");
+	        	  System.out.println(customerName +"'s loan is denied");
 	        	  
 	          }
 	          else if (debtToIncomeRatio>40.0f)
 	          {
-	        	  System.out.println(customerName +"'sloan is denied");
+	        	  System.out.println(customerName +"'s loan is denied");
 	        	  
 	          }
 
