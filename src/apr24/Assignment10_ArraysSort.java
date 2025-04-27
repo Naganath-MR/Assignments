@@ -21,15 +21,9 @@ public class Assignment10_ArraysSort {
 				temp = a[i];  // temp = 12
 					   a[i] =a[j]; // a[i]= 11
 					         a[j]=temp; // 12 //a[j]= 12
-			
-			
-			
-				}
-				
-			}	
-			
+	}}			
 		}
-		System.out.println("Arrays in Ascending Order==");
+				System.out.println("Arrays in Ascending Order==");
 		
 		for(int i=0; i<a.length;i++) {
 			System.out.print (a[i]+" ");
