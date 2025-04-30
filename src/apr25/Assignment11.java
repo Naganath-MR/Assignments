@@ -9,7 +9,7 @@ public class Assignment11 {
 		
 			return 0;
 		
-		int MinPrice = prices[0]; //{5,25,15}; // Minprice =5
+		int MinPrice = prices[0]; //{7,6,4,3,1}; // Minprice =7
 		int MaxProfit =0;
 		
 		
@@ -17,10 +17,10 @@ public class Assignment11 {
 		
 		for( int i=1; i<prices.length;i++)
 		{
-		if(prices[i] < MinPrice) // 25<5   //15<5
+		if(prices[i] < MinPrice) // 6<7 //4<7 //3<7 //1<7
 		
 		{
-			 MinPrice = prices[i] ; //1
+			 MinPrice = prices[i] ; //6 //4 //3 //1
 		}
 		
 		else if (prices[i] - MinPrice  > MaxProfit) //20 >0 //10>20
