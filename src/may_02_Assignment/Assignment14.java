@@ -3,37 +3,39 @@ package may_02_Assignment;
 public class Assignment14 {
 	public static void main(String[] args) {
 		
-		        // This variable is for the maximum number in the middle row
-		        int maximumNumber = 5;
+		
+		        int n = 5; // Maximum number on the center line
 
-		        // Upper Diamond values till middle row ( //1 to //1 2 3 4 5 )
-		        int currentRow = 1;
-		        
-		        while (currentRow <= maximumNumber) {
-		            int number = 1;
-		            while (number <= currentRow) {
-		                System.out.print(number + " ");
-		                number = number + 1;
+		        // Upper pattern with middle row
+		        for (int i = 1; i <= n; i++) {
+		            
+		        	// To Print spaces
+		            for (int j = i; j < n; j++) {
+		                System.out.print(" ");
+		            }
+		            // To print upper numbers
+		            for (int k = 1; k <= i; k++) {
+		                System.out.print(k + " ");
 		            }
 		            System.out.println();
-		            currentRow = currentRow + 1;
 		        }
 
-		        // Lower Diamond values till (without middle row)
-		        // 1 2 3 4  to // 1
-		        currentRow = maximumNumber - 1;  //4
-		        while (currentRow > 0) { //4 >0 //3>0
-		            int number = 1;
-		            while (number <= currentRow) { //1<=4 //2<=4 //3<=4 //4<=4 //5<=4
-		                System.out.print(number + " "); //1 // 2 //3 //4
-		                number = number + 1; //2 //3 //4 //5
+		        // Lower pattern without middle row
+		        for (int i = n - 1; i >= 1; i--) {
+		            // To Print spaces
+		            for (int j = n; j > i; j--) {
+		                System.out.print(" ");
+		            }
+		            // To print lower numbers
+		            for (int k = 1; k <= i; k++) {
+		                System.out.print(k + " ");
 		            }
 		            System.out.println();
-		            currentRow = currentRow - 1; //3
 		        }
 		    }
 		}
 
+		    
 
 	
 
